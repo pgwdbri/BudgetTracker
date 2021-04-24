@@ -15,6 +15,9 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
+
+mongodb+srv://admin:admin@cluster0.c33et.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget", {
   useNewUrlParser: true,
   useFindAndModify: false
