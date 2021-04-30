@@ -4,7 +4,7 @@ This application tracks a users budget by allowing them to record positive and n
 
 Link: https://budget-tracker-pgwd.herokuapp.com/
 
-Technologies used: 
+Technologies used: Javascript, HTML, CSS, MongoDB, Heroku
 
 
 
